@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Constants
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Constant variables
+            const string name = "Lavanya";
+            const string location = "Bangalore";
+            const int age = 22;
+            //This will throw compile time error
+            //name = "Tharun";
+            Console.WriteLine("Name : {0}", name);
+            Console.WriteLine("Location : {0}", location);
+            Console.WriteLine("Age: {0}, age");
+            Console.WriteLine("\nPress Enter Key to Exit...");
+            Console.ReadLine();
+        } 
+    }
+}
